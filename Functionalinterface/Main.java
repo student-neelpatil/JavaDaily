@@ -38,5 +38,10 @@ public class Main {
         // salary is :50000
 
         list.stream().map(emp->f.apply(emp)).forEach(c::accept);
+        // salary is :120000
+        // salary is :600000
+        // salary is :240000
+        // salary is :300000
+        // salary is :420000
     }
 }

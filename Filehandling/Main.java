@@ -16,6 +16,8 @@ public class Main {
         }
     }
 
+    //same for bufferreader
+
     public static void filereader(String filename){
      
         try {
