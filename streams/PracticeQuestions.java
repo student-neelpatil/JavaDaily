@@ -36,9 +36,14 @@ students.add(new Student(5, "Karan", "Mechanical", 65, 23));
 students.add(new Student(6, "Sneha", "Computer", 92, 20));
 students.add(new Student(7, "Vijay", "Mechanical", 40, 22));
 students.add(new Student(8, "Ananya", "IT", 55, 19));
+
+
     
 // Q1. Filter products by price Display all products whose price is greater than ₹1,000.
 // Concept: filter()
+
+
+products.stream().filter(e->e.price()>1000).forEach(System.out::println);
 
 
 
@@ -47,12 +52,16 @@ students.add(new Student(8, "Ananya", "IT", 55, 19));
 // Create a list containing only employee names, not complete employee objects.
 // Concept: map()
 
+employees.stream().map(e->e.name()).forEach(System.out::println);
+
 
 
 
 // Q3. Find students who passed
 // Display students with marks greater than or equal to 40.
 // Concept: filter() and forEach()
+
+students.stream().filter(e->e.marks()>40).forEach(System.out::println);
 
 
 
@@ -61,7 +70,7 @@ students.add(new Student(8, "Ananya", "IT", 55, 19));
 // Return a list of all employee names in uppercase.
 // Concept: map() and collect()
 
-
+employees.stream().map(e->e.name().toUpperCase()).collect(Collectors.toList());
 
 
 // Level 2 — Sorting objects using fields and calculations
