@@ -18,6 +18,24 @@ employees.add(new Employee(5, "Karan", "Finance", 80000, 8));
 employees.add(new Employee(6, "Sneha", "IT", 90000, 9));
 employees.add(new Employee(7, "Vijay", "Finance", 65000, 5));
 employees.add(new Employee(8, "Amit", "Sales", 40000, 2));
+
+products.add(new Product(1, "Laptop", "Electronics", 50000, 2));
+products.add(new Product(2, "Mouse", "Electronics", 500, 10));
+products.add(new Product(3, "Keyboard", "Electronics", 2000, 5));
+products.add(new Product(4, "Monitor", "Electronics", 10000, 3));
+products.add(new Product(5, "Chair", "Furniture", 5000, 4));
+products.add(new Product(6, "Desk", "Furniture", 12000, 2));
+products.add(new Product(7, "Phone", "Electronics", 30000, 3));
+products.add(new Product(8, "Notebook", "Stationery", 100, 50));
+
+students.add(new Student(1, "Aarav", "Computer", 85, 21));
+students.add(new Student(2, "Priya", "IT", 92, 20));
+students.add(new Student(3, "Rahul", "Computer", 35, 22));
+students.add(new Student(4, "Neha", "IT", 78, 21));
+students.add(new Student(5, "Karan", "Mechanical", 65, 23));
+students.add(new Student(6, "Sneha", "Computer", 92, 20));
+students.add(new Student(7, "Vijay", "Mechanical", 40, 22));
+students.add(new Student(8, "Ananya", "IT", 55, 19));
     
 // Q1. Filter products by price Display all products whose price is greater than ₹1,000.
 // Concept: filter()
